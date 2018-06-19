@@ -1,6 +1,6 @@
 # Ruby full-stack Technical Evaluation
 
-Code quality is very important for us. We're sending you this challenge so that
+Code quality is very important to us. We're sending you this challenge so that
 we can evaluate your coding skills with Ruby.
 
 ### Instructions
