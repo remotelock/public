@@ -63,6 +63,31 @@ PeopleController.normalize({
 # WRITE YOUR SPECS HERE
 ```
 
+### Challenge extension
+
+```ruby
+PIPE_ENTRIES = [ # Birth date, First name, City - Feature for next sprint!!!
+  '10.24.1990 | Joseph | New York City',
+  '1.15.1995 | Jane | Denver'
+]
+
+class App
+  def self.run(comma: [], dollar: [], pipe: [])
+    # invoke your magical classes here
+  end
+end
+
+App.run(comma: COMMA_ENTRIES, dollar: DOLLAR_ENTRIES, pipe: PIPE_ENTRIES)
+
+# Expected output: <First name> <City> <Birth date> (ordered by city)
+#   Elliot New York City 4/3/1947
+#   Jane Denver 10/24/1990
+#   Joseph New York City 1/15/1995
+#   Mckayla Atlanta 5/29/1986
+#   Rhiannon Los Angeles 10/4/1974
+#   Rigoberto New York City 12/1/1962
+```
+
 # Deliverable
 
 **One** file `app.rb` hosted in [GitHub Gist](http://gist.github.com) or similar
