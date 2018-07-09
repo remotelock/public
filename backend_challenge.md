@@ -20,7 +20,7 @@ we can evaluate your coding skills with Ruby.
 
 # The challenge
 
-Write a code to parse data represented in different formats and normalize to the following format:
+Write code to parse data represented in different formats and normalize to the following format:
 
   `<first name> <city name> <birth date M/D/YYYY>`
 
@@ -33,7 +33,7 @@ Write a code to parse data represented in different formats and normalize to the
 
 class PeopleController
   def self.normalize(request_params)
-    # FIXME
+    # TODO
   end
 end
 
