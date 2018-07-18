@@ -3,12 +3,6 @@
 Code quality is very important to us. We're sending you this challenge so that
 we can evaluate your coding skills with Ruby.
 
-### Instructions
-
-- Use the test framework you're most familiar with
-- Don't use any gem to accomplish the solution (except test framework)
-- Use anything you need from Ruby standard library
-
 ### What we expect from your code
 
 - Object-oriented
@@ -20,9 +14,18 @@ we can evaluate your coding skills with Ruby.
 
 # The challenge
 
-Write code to parse data represented in different formats and normalize to the following format:
+- Write code to parse data represented in different formats and normalize to the following format:
 
   `<first name> <city name> <birth date M/D/YYYY>`
+
+- Write at least 2 specs, but no more than 5 - we don't expect 100% coverage
+
+### Instructions
+
+- Use the test framework you're most familiar with
+- Use anything you need from Ruby standard library
+- Don't use any gem to accomplish the solution (except test framework)
+- Don't worry about invalid input data
 
 ### Template code
 
