@@ -65,7 +65,7 @@ PeopleController.normalize({
 
 # Deliverable
 
-**One** file `app.rb` hosted in [GitHub Gist](http://gist.github.com) or similar
-service, where we can view the solution with a single click.
+**One** file `app.rb` hosted in [GitHub Gist](http://gist.github.com). Please
+make the gist **secret**.
 
 **Don't worry about sending Gemfile[.lock]**
