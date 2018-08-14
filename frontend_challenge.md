@@ -58,7 +58,7 @@ App.run({ comma: COMMA_ENTRIES, dollar: DOLLAR_ENTRIES })
 
 # Deliverable
 
-**One** file `app.rb` hosted in [GitHub Gist](http://gist.github.com). Please
+**One** file `app.js` hosted in [GitHub Gist](http://gist.github.com). Please
 make the gist **secret**.
 
 **Don't worry about sending package.json**
