@@ -1,0 +1,92 @@
+inherit_mode:
+  merge:
+    - Exclude
+
+Rails:
+  Enabled: true
+
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - 'db/schema.rb'
+    - 'bin/*'
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Layout/AlignHash:
+  EnforcedLastArgumentHashStyle: 'ignore_implicit'
+
+Layout/AlignParameters:
+  Enabled: false
+
+Layout/DotPosition:
+  Enabled: false
+
+Layout/EmptyLineBetweenDefs:
+  AllowAdjacentOneLineDefs: true
+
+Layout/EndAlignment:
+  AutoCorrect: true
+
+Layout/FirstParameterIndentation:
+  Enabled: false
+
+Layout/IndentArray:
+  EnforcedStyle: 'consistent'
+
+Layout/IndentHash:
+  EnforcedStyle: 'consistent'
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+  Exclude:
+    - 'Gemfile'
+    - 'spec/**/*'
+    - 'db/**/*'
+  IgnoredPatterns: ['\A#']
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Style/Alias:
+  EnforcedStyle: 'prefer_alias_method'
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/EmptyMethod:
+  EnforcedStyle: 'compact'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Lambda:
+  EnforcedStyle: 'literal'
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
+
+Style/StructInheritance:
+  Enabled: false
