@@ -8,8 +8,10 @@ Rails:
 AllCops:
   TargetRubyVersion: 2.3
   Exclude:
-    - 'db/schema.rb'
     - 'bin/*'
+    - 'config/*.rb'
+    - 'config/environments/*.rb'
+    - 'db/schema.rb'
 
 Bundler/OrderedGems:
   Enabled: false
@@ -25,6 +27,9 @@ Layout/DotPosition:
 
 Layout/EmptyLineBetweenDefs:
   AllowAdjacentOneLineDefs: true
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: 'indented'
 
 Layout/EndAlignment:
   AutoCorrect: true
