@@ -46,6 +46,10 @@ Layout/IndentHash:
 Lint/ShadowingOuterLocalVariable:
   Enabled: false
 
+Lint/UselessAccessModifier:
+  ContextCreatingMethods:
+    - concerning
+
 Metrics/AbcSize:
   Enabled: false
 
