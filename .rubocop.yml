@@ -102,3 +102,6 @@ Style/StructInheritance:
 
 Style/BlockDelimiters:
   EnforcedStyle: 'braces_for_chaining'
+
+Style/AccessModifierDeclarations:
+  Enabled: false
