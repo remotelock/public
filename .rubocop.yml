@@ -17,7 +17,7 @@ Bundler/OrderedGems:
   Enabled: false
 
 Layout/AlignHash:
-  EnforcedLastArgumentHashStyle: 'ignore_implicit'
+  EnforcedLastArgumentHashStyle: ignore_implicit
 
 Layout/AlignParameters:
   Enabled: false
@@ -29,7 +29,7 @@ Layout/EmptyLineBetweenDefs:
   AllowAdjacentOneLineDefs: true
 
 Layout/MultilineMethodCallIndentation:
-  EnforcedStyle: 'indented'
+  EnforcedStyle: indented
 
 Layout/EndAlignment:
   AutoCorrect: true
@@ -38,10 +38,10 @@ Layout/FirstParameterIndentation:
   Enabled: false
 
 Layout/IndentArray:
-  EnforcedStyle: 'consistent'
+  EnforcedStyle: consistent
 
 Layout/IndentHash:
-  EnforcedStyle: 'consistent'
+  EnforcedStyle: consistent
 
 Lint/ShadowingOuterLocalVariable:
   Enabled: false
@@ -59,7 +59,7 @@ Metrics/BlockLength:
 Metrics/LineLength:
   Max: 120
   Exclude:
-    - 'Gemfile'
+    - Gemfile
     - 'spec/**/*'
     - 'db/**/*'
   IgnoredPatterns: ['\A#']
@@ -74,7 +74,7 @@ Rails/SkipsModelValidations:
   Enabled: false
 
 Style/Alias:
-  EnforcedStyle: 'prefer_alias_method'
+  EnforcedStyle: prefer_alias_method
 
 Style/Documentation:
   Enabled: false
@@ -83,13 +83,13 @@ Style/EmptyCaseCondition:
   Enabled: false
 
 Style/EmptyMethod:
-  EnforcedStyle: 'compact'
+  EnforcedStyle: compact
 
 Style/FrozenStringLiteralComment:
   Enabled: false
 
 Style/Lambda:
-  EnforcedStyle: 'literal'
+  EnforcedStyle: literal
 
 Style/MultilineBlockChain:
   Enabled: false
@@ -101,7 +101,7 @@ Style/StructInheritance:
   Enabled: false
 
 Style/BlockDelimiters:
-  EnforcedStyle: 'braces_for_chaining'
+  EnforcedStyle: braces_for_chaining
 
 Style/AccessModifierDeclarations:
   Enabled: false
