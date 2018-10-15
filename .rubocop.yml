@@ -105,3 +105,6 @@ Style/BlockDelimiters:
 
 Style/AccessModifierDeclarations:
   Enabled: false
+
+Performance/RedundantBlockCall:
+  Enabled: false
