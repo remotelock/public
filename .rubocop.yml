@@ -108,3 +108,6 @@ Style/AccessModifierDeclarations:
 
 Performance/RedundantBlockCall:
   Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
