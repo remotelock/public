@@ -114,3 +114,6 @@ Style/TrailingCommaInHashLiteral:
 
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
+
+Performance/Casecmp:
+  Enabled: false
