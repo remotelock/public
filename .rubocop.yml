@@ -117,3 +117,6 @@ Style/TrailingCommaInArguments:
 
 Performance/Casecmp:
   Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
