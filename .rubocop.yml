@@ -28,9 +28,6 @@ Layout/DotPosition:
 Layout/EmptyLineBetweenDefs:
   AllowAdjacentOneLineDefs: true
 
-Layout/MultilineMethodCallIndentation:
-  EnforcedStyle: indented
-
 Layout/EndAlignment:
   AutoCorrect: true
 
@@ -42,6 +39,9 @@ Layout/IndentArray:
 
 Layout/IndentHash:
   EnforcedStyle: consistent
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
 
 Lint/ShadowingOuterLocalVariable:
   Enabled: false
@@ -86,6 +86,9 @@ Style/EmptyMethod:
   EnforcedStyle: compact
 
 Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/IfUnlessModifier: # Enable if this moves forward: https://github.com/rubocop-hq/rubocop/issues/6149
   Enabled: false
 
 Style/Lambda:
