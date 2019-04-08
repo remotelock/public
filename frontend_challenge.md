@@ -59,7 +59,18 @@ App.run({ comma: COMMA_ENTRIES, dollar: DOLLAR_ENTRIES })
 ### Challenge extension
 
 ```javascript
-// Add support for the pipe format and sort by first name.
+// CHALLENGE EXTENSION
+// Important:
+//   - Communicate the ideas during the coding
+//   - Write at least 1 spec for the extension solution
+// Not important:
+//   - Being fast is not the most important thing
+//   - Don't worry about syntax typos (missing a comma, bracket)
+//
+// Task:
+//   - Parse and normalize the new input format
+//   - Sort entries by birth date
+
 const PIPE_ENTRIES = [ // Birth date, First name, City
   '10.24.1990 | Joseph | New York City',
   '1.15.1995 | Jane | Denver'
@@ -75,11 +86,11 @@ App.run({ comma: COMMA_ENTRIES, dollar: DOLLAR_ENTRIES, pipe: PIPE_ENTRIES })
 
 // Expected output:
 //   Elliot New York City 4/3/1947
-//   Jane Denver 10/24/1990
-//   Joseph New York City 1/15/1995
-//   Mckayla Atlanta 5/29/1986
-//   Rhiannon Los Angeles 10/4/1974
 //   Rigoberto New York City 12/1/1962
+//   Rhiannon Los Angeles 10/4/1974
+//   Mckayla Atlanta 5/29/1986
+//   Joseph New York City 10/24/1990
+//   Jane Denver 1/15/1995
 ```
 
 
