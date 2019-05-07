@@ -70,6 +70,9 @@ Metrics/ClassLength:
 Metrics/MethodLength:
   Enabled: false
 
+Rails/DynamicFindBy:
+  Enabled: false
+
 Rails/HttpPositionalArguments:
   Enabled: false
 
