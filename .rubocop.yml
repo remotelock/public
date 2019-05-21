@@ -135,3 +135,6 @@ Style/TrailingCommaInHashLiteral:
 
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
+
+Style/MixinUsage:
+  Enabled: false
