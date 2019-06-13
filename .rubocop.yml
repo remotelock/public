@@ -50,6 +50,10 @@ Lint/UselessAccessModifier:
   ContextCreatingMethods:
     - concerning
 
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "spec/**/*"
+
 Metrics/AbcSize:
   Enabled: false
 
