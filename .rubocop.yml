@@ -31,17 +31,20 @@ Layout/EmptyLineBetweenDefs:
 Layout/EndAlignment:
   AutoCorrect: true
 
-Layout/FirstParameterIndentation:
+Layout/IndentFirstArgument:
   Enabled: false
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
+
+Layout/RescueEnsureAlignment:
+  Enabled: false
 
 Lint/ShadowingOuterLocalVariable:
   Enabled: false
