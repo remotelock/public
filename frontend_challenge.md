@@ -12,6 +12,7 @@ we can evaluate your coding skills with JavaScript.
 ### What we expect from your code
 
 - Clean code
+- Consistent style
 - Extensibility
 - Maintainability
 - Testability
