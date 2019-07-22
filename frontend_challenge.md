@@ -50,8 +50,8 @@ App.run({ comma: COMMA_ENTRIES, dollar: DOLLAR_ENTRIES })
 
 // Expected standard output:
 //   Mckayla Atlanta 5/29/1986
-//   Rhiannon Los Angeles 10/4/1974
 //   Elliot New York City 4/3/1947
+//   Rhiannon Los Angeles 10/4/1974
 //   Rigoberto New York City 12/1/1962
 
 // WRITE YOUR SPECS HERE
