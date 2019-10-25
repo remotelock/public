@@ -11,7 +11,7 @@ AllCops:
     - 'bin/*'
     - 'config/*.rb'
     - 'config/environments/*.rb'
-    - 'db/schema.rb'
+    - 'db/*schema.rb'
 
 Bundler/OrderedGems:
   Enabled: false
