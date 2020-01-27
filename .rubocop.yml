@@ -92,6 +92,9 @@ Rails/NotNullColumn:
 Rails/SkipsModelValidations:
   Enabled: false
 
+Rails/HasManyOrHasOneDependent:
+  Enabled: false
+
 Style/AccessModifierDeclarations:
   Enabled: false
 
