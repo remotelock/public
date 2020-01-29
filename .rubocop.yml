@@ -80,6 +80,9 @@ Performance/Casecmp:
 Performance/RedundantBlockCall:
   Enabled: false
 
+Performance/TimesMap:
+  Enabled: false
+
 Rails/DynamicFindBy:
   Enabled: false
 
