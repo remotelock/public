@@ -12,6 +12,7 @@ AllCops:
     - 'config/*.rb'
     - 'config/environments/*.rb'
     - 'db/*schema.rb'
+    - 'tmp/**/*'
 
 Bundler/OrderedGems:
   Enabled: false
