@@ -21,7 +21,7 @@ AllCops:
 Bundler/OrderedGems:
   Enabled: false
 
-Layout/ArgumentAligment:
+Layout/ArgumentAligmnent:
   EnforcedStyle: with_fixed_indentation
 
 Layout/HashAlignment:
