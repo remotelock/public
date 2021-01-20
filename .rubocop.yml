@@ -42,6 +42,9 @@ Layout/EndAlignment:
 Layout/FirstParameterIndentation:
   Enabled: false
 
+Layout/FirstArgumentIndentation:
+  Enabled: false
+
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
