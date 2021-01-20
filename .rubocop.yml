@@ -45,6 +45,14 @@ Layout/FirstArrayElementIndentation:
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
+Layout/LineLength:
+  Max: 120
+  Exclude:
+    - Gemfile
+    - 'spec/**/*'
+    - 'db/**/*'
+  IgnoredPatterns: ['\A#']
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
@@ -67,14 +75,6 @@ Metrics/BlockLength:
 
 Metrics/ClassLength:
   Enabled: false
-
-Metrics/LineLength:
-  Max: 120
-  Exclude:
-    - Gemfile
-    - 'spec/**/*'
-    - 'db/**/*'
-  IgnoredPatterns: ['\A#']
 
 Metrics/MethodLength:
   Enabled: false
