@@ -11,6 +11,7 @@ Rails:
 
 AllCops:
   TargetRubyVersion: 2.7
+  SuggestExtensions: false
   Exclude:
     - 'bin/*'
     - 'config/*.rb'
@@ -87,6 +88,10 @@ Metrics/MethodLength:
 
 Naming/PredicateName:
   ForbiddenPrefixes: is_
+
+Naming/VariableNumber:
+  Exclude:
+    - 'spec/**/*'
 
 Performance/Casecmp:
   Enabled: false
