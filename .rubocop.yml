@@ -21,6 +21,9 @@ AllCops:
 Bundler/OrderedGems:
   Enabled: false
 
+Layout/ArgumentAligment:
+  EnforcedStyle: with_fixed_indentation
+
 Layout/HashAlignment:
   EnforcedLastArgumentHashStyle: ignore_implicit
 
