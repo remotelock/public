@@ -2,6 +2,10 @@ inherit_mode:
   merge:
     - Exclude
 
+require:
+  - rubocop-performance
+  - rubocop-rails
+
 Rails:
   Enabled: true
 
