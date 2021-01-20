@@ -17,10 +17,10 @@ AllCops:
 Bundler/OrderedGems:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedLastArgumentHashStyle: ignore_implicit
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   Enabled: false
 
 Layout/DotPosition:
@@ -35,10 +35,10 @@ Layout/EndAlignment:
 Layout/FirstParameterIndentation:
   Enabled: false
 
-Layout/IndentArray:
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
-Layout/IndentHash:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
 Layout/MultilineMethodCallIndentation:
@@ -76,7 +76,7 @@ Metrics/MethodLength:
   Enabled: false
 
 Naming/PredicateName:
-  NamePrefixBlacklist: is_
+  ForbiddenPrefixes: is_
 
 Performance/Casecmp:
   Enabled: false
