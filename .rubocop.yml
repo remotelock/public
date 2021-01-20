@@ -37,6 +37,9 @@ Layout/DotPosition:
 Layout/EmptyLineBetweenDefs:
   AllowAdjacentOneLineDefs: true
 
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
 Layout/EndAlignment:
   AutoCorrect: true
 
