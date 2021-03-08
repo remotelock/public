@@ -120,6 +120,9 @@ Rails/SkipsModelValidations:
 Rails/HasManyOrHasOneDependent:
   Enabled: false
 
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
+
 Style/AccessModifierDeclarations:
   Enabled: false
 
