@@ -44,6 +44,9 @@ Layout/IndentHash:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
 Lint/ShadowingOuterLocalVariable:
   Enabled: false
 
