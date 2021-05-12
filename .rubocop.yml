@@ -75,6 +75,9 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Enabled: false
 
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
+
 Naming/PredicateName:
   NamePrefixBlacklist: is_
 
