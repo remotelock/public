@@ -2,11 +2,16 @@ inherit_mode:
   merge:
     - Exclude
 
+require:
+  - rubocop-performance
+  - rubocop-rails
+
 Rails:
   Enabled: true
 
 AllCops:
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 2.6
+  SuggestExtensions: false
   Exclude:
     - 'bin/*'
     - 'config/*.rb'
@@ -17,10 +22,13 @@ AllCops:
 Bundler/OrderedGems:
   Enabled: false
 
-Layout/AlignHash:
+Layout/ArgumentAlignment:
+  Enabled: false
+
+Layout/HashAlignment:
   EnforcedLastArgumentHashStyle: ignore_implicit
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   Enabled: false
 
 Layout/DotPosition:
@@ -29,17 +37,31 @@ Layout/DotPosition:
 Layout/EmptyLineBetweenDefs:
   AllowAdjacentOneLineDefs: true
 
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
 Layout/EndAlignment:
   AutoCorrect: true
 
 Layout/FirstParameterIndentation:
   Enabled: false
 
-Layout/IndentArray:
+Layout/FirstArgumentIndentation:
+  Enabled: false
+
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
-Layout/IndentHash:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
+
+Layout/LineLength:
+  Max: 120
+  Exclude:
+    - Gemfile
+    - 'spec/**/*'
+    - 'db/**/*'
+  IgnoredPatterns: ['\A#']
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
@@ -64,14 +86,6 @@ Metrics/BlockLength:
 Metrics/ClassLength:
   Enabled: false
 
-Metrics/LineLength:
-  Max: 120
-  Exclude:
-    - Gemfile
-    - 'spec/**/*'
-    - 'db/**/*'
-  IgnoredPatterns: ['\A#']
-
 Metrics/MethodLength:
   Enabled: false
   
@@ -82,7 +96,11 @@ Naming/MemoizedInstanceVariableName:
   Enabled: false
 
 Naming/PredicateName:
-  NamePrefixBlacklist: is_
+  ForbiddenPrefixes: is_
+
+Naming/VariableNumber:
+  Exclude:
+    - 'spec/**/*'
 
 Performance/Casecmp:
   Enabled: false
@@ -106,6 +124,9 @@ Rails/SkipsModelValidations:
   Enabled: false
 
 Rails/HasManyOrHasOneDependent:
+  Enabled: false
+
+Rails/UniqueValidationWithoutIndex:
   Enabled: false
 
 Style/AccessModifierDeclarations:
