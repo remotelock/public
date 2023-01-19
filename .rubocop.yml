@@ -70,7 +70,7 @@ Metrics/LineLength:
     - Gemfile
     - 'spec/**/*'
     - 'db/**/*'
-  IgnoredPatterns: ['\A#']
+  AllowedPatterns: ['\A#']
 
 Metrics/MethodLength:
   Enabled: false
