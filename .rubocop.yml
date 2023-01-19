@@ -61,7 +61,7 @@ Layout/LineLength:
     - Gemfile
     - 'spec/**/*'
     - 'db/**/*'
-  IgnoredPatterns: ['\A#']
+  AllowedPatterns: ['\A#']
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
