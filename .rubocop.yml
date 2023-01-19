@@ -179,3 +179,7 @@ Style/TrailingCommaInArguments:
 
 Style/MixinUsage:
   Enabled: false
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: either
+  
